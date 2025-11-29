@@ -13,10 +13,11 @@ const navLinks = [
 
 function Navigation () {
     return (
-        <div className="flex gap text-red-500">
+        <div className="flex gap-4 text-red-500">
         {
             navLinks.map(link => {
                 const Icon = Icons[link.icon];
+                
                 return (
                     <Nav 
                         icon={Icon}
@@ -31,10 +32,12 @@ function Navigation () {
 }
 
 function Nav ({ icon: Icon, name }) {
-    <div>
-        <Icon size={24} />
-        <span>{name}</span>
-    </div>
+    return (
+        <div>
+            <Icon size={24} />
+            <span>{name}</span>
+        </div>
+    )
 }
 
-export default Navigation;
+export default Navigation
