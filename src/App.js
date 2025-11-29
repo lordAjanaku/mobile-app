@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <TestTailwind/>
+    </div>
+  );
+}
+
+function TestTailwind() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
+      <div className="p-6 rounded-xl shadow-lg bg-white">
+        <h1 className="text-3xl font-bold text-blue-600 mb-2">
+          Tailwind v4 is Working! 🎉
+        </h1>
+        <p className="text-gray-700">
+          If you can see this styled text, your setup is correct.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
