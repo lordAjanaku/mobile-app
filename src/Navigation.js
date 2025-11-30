@@ -5,22 +5,22 @@ const navLinks = [
     name: "Home",
     icon: "Home",
   },
-	{
-		name: "Map",
-		icon: "Map"
-	},
+  {
+    name: "Map",
+    icon: "Map"
+  },
   {
     name: "Setting",
     icon: "Settings",
   },
-	 {
+  {
     name: "Transfer",
-    icon: "refresh-ccw",
+    icon: "RefreshCcw",
   },
-	{
-		name: "Profile",
-		icon: "user"
-	}
+  {
+    name: "Profile",
+    icon: "User"
+  }
 ];
 
 function Navigation() {
@@ -43,7 +43,7 @@ function Navigation() {
 
 function Nav({ icon: Icon, name }) {
   return (
-    <div className="grid gap-5 bg-grey-300">
+    <div className="grid gap-5 bg-gray-300">
       <Icon size={24} />
       <span>{name}</span>
     </div>
