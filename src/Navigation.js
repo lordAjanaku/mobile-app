@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import * as Icons from "lucide-react";
+// import * as Icons from "lucide-react";
+import * as Icons from "@phosphor-icons/react";
+
 
 const navLinks = [
   { name: "Home", icon: "Home", active: true },
@@ -48,9 +50,7 @@ function Nav({ icon: Icon, name, active, navs, setNavs }) {
     <div className="grid gap-5 outline outline-red-50">
       <Icon
         size={24}
-        strokeWidth={active ? 0 : 1}
-        absoluteStrokeWidth={true}
-        fill={active ? "currentColor" : "none"}
+        weight={active ? "fill" : ""}
         onClick={() => handleNavChange(name)}
       />
       <span>{name}</span>
