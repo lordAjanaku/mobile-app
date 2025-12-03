@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mobile-app/static/css/main.5fd4de8f.css",
+    "main.js": "/mobile-app/static/js/main.d8feaf43.js",
+    "index.html": "/mobile-app/index.html",
+    "main.5fd4de8f.css.map": "/mobile-app/static/css/main.5fd4de8f.css.map",
+    "main.d8feaf43.js.map": "/mobile-app/static/js/main.d8feaf43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fd4de8f.css",
+    "static/js/main.d8feaf43.js"
+  ]
+}
